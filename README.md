@@ -3,7 +3,7 @@
 
 
 A [Pydantic](https://pydantic-docs.helpmanual.io/) integration for [Graphene](http://graphene-python.org/).
-Forked from [upsidetravel/graphene-pydantic](https://github.com/upsidetravel/graphene-pydantic/)
+> Forked from [upsidetravel/graphene-pydantic](https://github.com/upsidetravel/graphene-pydantic/)
 
 ## Installation
 
