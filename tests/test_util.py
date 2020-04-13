@@ -1,4 +1,4 @@
-from graphene_pydantic import util
+from graphene_pydantic_fix import util
 
 
 def test_construct_union_class_name():

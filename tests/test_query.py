@@ -3,7 +3,7 @@ import uuid
 import pydantic
 import graphene
 
-from graphene_pydantic import PydanticObjectType
+from graphene_pydantic_fix import PydanticObjectType
 
 
 class FooModel(pydantic.BaseModel):

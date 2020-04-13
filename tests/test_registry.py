@@ -1,14 +1,14 @@
 import pytest
 from pydantic import BaseModel
 
-from graphene_pydantic import PydanticObjectType
-from graphene_pydantic.registry import (
+from graphene_pydantic_fix import PydanticObjectType
+from graphene_pydantic_fix.registry import (
     Registry,
     get_global_registry,
     reset_global_registry,
     assert_is_pydantic_object_type,
 )
-from graphene_pydantic import registry
+from graphene_pydantic_fix import registry
 
 
 def _get_dummy_classes():

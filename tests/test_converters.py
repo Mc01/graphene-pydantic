@@ -10,9 +10,9 @@ import graphene.types
 import pydantic
 from pydantic import create_model, BaseModel
 
-from graphene_pydantic.converters import convert_pydantic_field, ConversionError
-from graphene_pydantic.registry import get_global_registry
-from graphene_pydantic import converters
+from graphene_pydantic_fix.converters import convert_pydantic_field, ConversionError
+from graphene_pydantic_fix.registry import get_global_registry
+from graphene_pydantic_fix import converters
 
 
 def _get_field_from_spec(name, type_spec_or_default):
@@ -126,7 +126,7 @@ def test_enum():
 
 
 def test_existing_model():
-    from graphene_pydantic import PydanticObjectType
+    from graphene_pydantic_fix import PydanticObjectType
 
     class Foo(BaseModel):
         name: str

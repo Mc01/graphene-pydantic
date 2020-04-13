@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "graphene_pydantic"
+name = "graphene_pydantic_fix"
 version = "0.0.6"
 description = "Graphene Pydantic integration"
 readme = "README.md"
-repository = "https://github.com/upsidetravel/graphene-pydantic"
+repository = "https://github.com/Mc01/graphene-pydantic"
 authors = [
   "Rami Chowdhury <rami@upside.com>"
 ]
